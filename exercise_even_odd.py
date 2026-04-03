@@ -16,8 +16,8 @@ def even_odd():
     numero = int(input("Ingrese un numero entero: "))
 
     if numero % 2 == 0:
-        print("El numero es par")
+        print(f"El numero {numero} es par")
     else:
-        print("El numero es impar")
+        print(f"El numero {numero} es impar")
 
 even_odd()
