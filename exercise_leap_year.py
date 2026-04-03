@@ -17,4 +17,12 @@ def leap_year():
         Para la entrada "1700", la salida esperada es:
         El año 1700 no es bisiesto
     """
-    pass
+
+    bisiesto = int(input())
+
+    if bisiesto % 4 == 0 and (bisiesto % 100 !=0 or bisiesto % 400 == 0):
+        print(f"El año {bisiesto} es bisiesto")
+    else:
+        print(f"El año {bisiesto} no es bisiesto")
+
+leap_year()
