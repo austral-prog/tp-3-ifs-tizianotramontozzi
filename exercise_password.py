@@ -26,9 +26,7 @@ def password():
     pass
     clave = input()
     largo = len(clave) >= 8
-    numero = ("0" in clave or "1" in clave or "2" in clave or "3"
-              in clave or "4" in clave or "5" in clave or "6" in clave or
-              "7" in clave or "8" in clave or "9" in clave)
+    numero = ("0" in clave or "1" in clave or "2" in clave or "3" in clave or "4" in clave or "5" in clave or "6" in clave or "7" in clave or "8" in clave or "9" in clave)
 
     if largo and numero:
         print("Contraseña valida")
