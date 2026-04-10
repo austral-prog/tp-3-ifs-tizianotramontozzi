@@ -15,6 +15,7 @@ def compare():
         Para las entradas "7" y "7", la salida esperada es:
         7 es igual a 7
     """
+    pass
     num1 = int(input())
     num2 = int(input())
 

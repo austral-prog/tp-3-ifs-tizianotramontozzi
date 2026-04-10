@@ -15,7 +15,7 @@ def triangle():
         Para las entradas "1", "2" y "5", la salida esperada es:
         Los lados no forman un triangulo valido
     """
-
+    pass
     a = int(input())
     b = int(input())
     c = int(input())

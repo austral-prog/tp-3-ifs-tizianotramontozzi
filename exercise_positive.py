@@ -15,7 +15,7 @@ def positive():
         Para la entrada "0", la salida esperada es:
         El numero es cero
     """
-
+    pass
     numero = int(input("Ingrese un numero entero: "))
 
     if numero > 0 :

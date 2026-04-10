@@ -23,7 +23,7 @@ def password():
         Contraseña muy corta
         Debe contener un numero
     """
-
+    pass
     clave = input()
     largo = len(clave) >= 8
     numero = ("0" in clave or "1" in clave or "2" in clave or "3"
