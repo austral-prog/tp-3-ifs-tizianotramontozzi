@@ -18,7 +18,7 @@ def age_check():
         Para las entradas "-5" y "18", la salida esperada es:
         Entrada invalida
     """
-    pass
+
     edad = int(input())
     limite = int(input())
 
